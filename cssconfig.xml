@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">	
+	<name>System - CSSConfig</name>
+	<author>Alberto Armada Fraga</author>
+	<authorEmail>info@joomlaempresa.es</authorEmail>
+	<creationDate>05-2013</creationDate>
+	<copyright>Copyright (C) 2013 Joomla Empresa Team - All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>0.2.0</version>
+	<description>PLG_SYSTEM_CSSCONFIG_DESCRIPCION_XML</description>
+	<updateservers>
+		<server type="extension" priority="1" name="CSSConfig Updates"><![CDATA[http://www.joomlaempresa.es/index.php?option=com_ars&lang=en&view=update&task=stream&format=xml&id=1]]></server>
+	</updateservers>
+	<files>
+        <filename plugin="cssconfig">cssconfig.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>elements</folder>
+    </files>
+    <languages>
+    	<language tag="gl-ES">language/gl-ES/gl-ES.plg_system_cssconfig.ini</language>
+		<language tag="gl-ES">language/gl-ES/gl-ES.plg_system_cssconfig.sys.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.plg_system_cssconfig.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.plg_system_cssconfig.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_cssconfig.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_cssconfig.sys.ini</language>
+	</languages>
+    <config>
+    	<fields name="params" addfieldpath="/plugins/system/cssconfig/elements">
+        	<fieldset name="basic">
+            	<field name="css_code" type="csseditor" label="PLG_SYSTEM_CSSCONFIG_CODIGO" description="PLG_SYSTEM_CSSCONFIG_CODIGO_DESC" />
+        	</fieldset>
+    	</fields>
+    </config>
+</extension>
