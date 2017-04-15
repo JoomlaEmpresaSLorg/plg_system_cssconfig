@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="2.5" type="plugin" group="system" method="upgrade">	
+<extension version="3.5" type="plugin" group="system" method="upgrade">	
 	<name>System - CSSConfig</name>
 	<author>Alberto Armada Fraga</author>
 	<authorEmail>info@joomlaempresa.es</authorEmail>
-	<creationDate>05-2013</creationDate>
-	<copyright>Copyright (C) 2013 Joomla Empresa Team - All Rights Reserved.</copyright>
+	<creationDate>2017-04-15</creationDate>
+	<copyright>Copyright (C) 2013-2017 Joomla Empresa Team - All Rights Reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-	<version>0.2.0</version>
+	<version>0.3.0</version>
 	<description>PLG_SYSTEM_CSSCONFIG_DESCRIPCION_XML</description>
 	<updateservers>
-		<server type="extension" priority="1" name="CSSConfig Updates">https://raw.githubusercontent.com/JoomlaEmpresaSL/plg_system_cssconfig/master/update.xml
+		<server type="extension" priority="1" name="CSSConfig Updates">https://raw.githubusercontent.com/JoomlaEmpresaSL/plg_system_cssconfig/master/update.xml</server>
 	</updateservers>
 	<files>
         <filename plugin="cssconfig">cssconfig.php</filename>
