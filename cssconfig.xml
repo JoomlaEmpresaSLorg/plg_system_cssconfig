@@ -9,7 +9,7 @@
 	<version>0.2.0</version>
 	<description>PLG_SYSTEM_CSSCONFIG_DESCRIPCION_XML</description>
 	<updateservers>
-		<server type="extension" priority="1" name="CSSConfig Updates"><![CDATA[http://www.joomlaempresa.es/index.php?option=com_ars&lang=en&view=update&task=stream&format=xml&id=1]]></server>
+		<server type="extension" priority="1" name="CSSConfig Updates">https://raw.githubusercontent.com/JoomlaEmpresaSL/plg_system_cssconfig/master/update.xml
 	</updateservers>
 	<files>
         <filename plugin="cssconfig">cssconfig.php</filename>
