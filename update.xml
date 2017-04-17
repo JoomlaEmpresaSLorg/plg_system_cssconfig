@@ -7,10 +7,10 @@
 		<type>plugin</type>
 		<folder>system</folder>
 		<client>0</client>
-		<version>0.3.0</version>
-		<infourl title="CSSConfig Plugin">https://github.com/JoomlaEmpresaSL/plg_system_cssconfig/releases/tag/0.3.0</infourl>
+		<version>0.4.0</version>
+		<infourl title="CSSConfig Plugin">https://github.com/JoomlaEmpresaSL/plg_system_cssconfig/releases/tag/0.4.0</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/JoomlaEmpresaSL/plg_system_cssconfig/releases/download/0.3.0/plg_system_cssconfig-0.3.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/JoomlaEmpresaSL/plg_system_cssconfig/releases/download/0.4.0/plg_system_cssconfig-0.4.0.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="3.[6789]" />
 	</update>

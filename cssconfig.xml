@@ -6,7 +6,7 @@
 	<creationDate>2017-04-15</creationDate>
 	<copyright>Copyright (C) 2013-2017 Joomla Empresa Team - All Rights Reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-	<version>0.3.0</version>
+	<version>0.4.0</version>
 	<description>PLG_SYSTEM_CSSCONFIG_DESCRIPCION_XML</description>
 	<updateservers>
 		<server type="extension" priority="1" name="CSSConfig Updates">https://raw.githubusercontent.com/JoomlaEmpresaSL/plg_system_cssconfig/master/update.xml</server>
