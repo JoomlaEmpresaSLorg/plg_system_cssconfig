@@ -31,7 +31,7 @@ class plgSystemCSSConfig extends JPlugin{
 	protected $_plugin = null;
 	protected $cssCode = null;
 	
-	function plgSystemCSSConfig(&$subject, $config){
+	function __construct(&$subject, $config){
 		parent::__construct($subject, $config);
         $this->loadLanguage();
         //recollo os datos deste plugin
