@@ -36,20 +36,21 @@ class plgSystemCSSConfig extends JPlugin{
         $this->loadLanguage();
         //recollo os datos deste plugin
 		$this->_plugin = JPluginHelper::getPlugin('system', 'cssconfig');
-		//se non está vacío o cadro de css, almaceno os datos na variable csscode
+		//se non estÃ¡ vacÃ­o o cadro de css, almaceno os datos na variable csscode
 		if($this->params->get('css_code')){
 			$this->cssCode = $this->params->get('css_code');
 		}
 	}
 	
 	function onAfterRoute() {
-		//recolle a páxina na que está 
+		//recolle a pÃ¡xina na que estÃ¡ 
 		$document = JFactory::getDocument();
 		//almacena a Url na que se atopa e commproba se existe a cadena administrator, para evitar
 		//cambiar o estilo as paxinas de administracion do sitio
 		//se non conten esa cadena, engade o codigo css introducido a paxina do front-end
 		$app = JFactory::getApplication();
-		if(!$app->isSite() || $app->isAdmin()) return;
+		//if(!$app->isSite() || $app->isAdmin()) return;
+		if(!$app->isClient('site') || $app->isClient('admin')) return;
 		else $document->addStyleDeclaration($this->cssCode);
 	}
 }
